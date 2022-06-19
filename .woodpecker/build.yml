@@ -1,0 +1,8 @@
+pipeline:
+  build:
+    image: alpine:latest
+    commands:
+      - apk add meson build-base
+      - meson build
+      - samu -C build
+      - build/ci-test
