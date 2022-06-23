@@ -2,6 +2,6 @@
 #include <stdio.h>
 
 int main() {
-	printf("Hello CI 5\n");
+	printf("Hello CI on fork\n");
 	return 0;
 }
