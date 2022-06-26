@@ -1,6 +1,8 @@
+platform: darwin/arm64
+
 pipeline:
   build:
-    image: alpine:latest
+    image: /bin/bash
     commands:
       - apk add meson build-base
       - meson build
