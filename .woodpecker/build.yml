@@ -5,4 +5,4 @@ pipeline:
       - apk add meson build-base
       - meson build
       - samu -C build
-      - build/ci-test
+      - build/ci-testasd
